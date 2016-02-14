@@ -1,0 +1,162 @@
+	body{
+		font-family: Georgia, serif;
+	}
+
+	ul{
+		list-style-type: none;
+		padding: 0;
+	}
+		
+	a, a:hover {
+		text-decoration: none;
+	}
+
+	header{
+		width: 100%;
+		background: #fff;
+		z-index: 10;
+	}
+
+	header #gerb
+	{
+		float:left;
+		margin: 4px 8px 0 8px;
+	}
+	
+	header #name
+	{
+		font-weight: bold;
+		font-size: 21px;
+		line-height: 1.3;
+		/*color: #273730;*/
+		color: #1263ad;
+	}
+	
+	header #motto
+	{
+		font-weight: bold;
+		font-style: italic;
+		font-size: 16px;
+		font-family: Georgia, serif;
+		color: #1263ad;
+	}
+	
+	header #langs
+	{
+		float: right;
+		margin: 5px 8px 0 0;
+	}
+	
+	header #langs img
+	{
+		margin-left: 5px;
+	}
+
+	header #search
+	{
+		float: right;
+		margin: 40px -104px 0 0px; /* margin: -2px 0 0 0px;*/
+		width: 260px;
+	}
+
+	header #search input[type="text"]
+	{
+		padding: 4px 8px;
+		width: 210px;
+		border: 1px solid #1263ad;
+	}
+	
+	header #search button
+	{
+		margin-left: -4px;
+		padding: 7px 17px 9px;
+		background: #1263ad;
+		color: #f2f2f2;
+		border: none;
+	}
+
+	#menu{
+		margin: 10px 0 0 0;
+		min-height: 0;
+		background-color: #0194fe;
+		border: none;
+		border-radius: 0;
+	}
+
+	#menu ul li{
+		padding: 0;
+	}
+
+	#menu ul li a{
+		padding: 10px 30px;
+		color: #f2f2f2;
+	}
+
+	#menu ul li a:hover{
+		background-color: rgba(255, 255, 255, .8);
+		color: #1263ad;
+	}
+
+	main a{
+		color: #103343;
+	}
+
+	main a:hover, main a:focus{
+		color: #0194fe;
+	}
+
+	main h1, h2, h3, h4, h5, h6{
+		font-weight: bold; 
+	}
+
+	main .news{
+		padding: 10px;
+	}
+
+	main .news div{
+		padding-bottom: 6px;
+		background-color: #f2f2f2;
+	}
+
+	main .news div h5{
+		margin: 10px;
+	}
+
+	main .news div:hover{
+		color: #f2f2f2;
+		background-color: #0194fe;
+	}
+
+	main .news-item{
+		padding: 10px;
+		background-color: #f2f2f2;
+	}
+
+	main .socials{
+		margin: 20px;
+	}
+
+	main .news-item:hover, main .news-item:focus{
+		background-color: #0194fe;
+		color: #f2f2f2;
+	}
+
+	main .links-list{
+		padding: 20px 20px 10px;
+	}
+
+	main .links-list ul li{
+		padding: 6px 10px;
+	}
+
+	main .links-list ul li:hover, main .links-list ul li:hover a{
+		background-color: #0194fe;
+		color: #f2f2f2;
+	}
+
+	footer{
+		margin-top: 40px;
+		padding: 20px;
+		background-color: #103343;
+		color: #f2f2f2;
+	}

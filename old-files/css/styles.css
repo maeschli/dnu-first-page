@@ -1,0 +1,148 @@
+*
+{
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 124%;
+    color: #000;
+}
+h1
+{
+    margin: 5px 0 10px 0;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+h1.htext
+{
+}
+h2
+{
+	font-family: Arial, sans-serif;
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+h3
+{
+    margin: 8px 0 1px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+img
+{
+	border: none;
+}
+.centered
+{
+    text-align: center;
+}
+#content a, .imageheader-desc a
+{
+	border-bottom:1px solid #A1A5A9;
+	text-decoration:none;
+}
+#content a:hover, .imageheader-desc a:hover
+{
+    border-bottom: 1px solid #000;
+}
+p.sign, #ctext p.sign
+{
+    text-align: right;
+	margin: 10px 0;
+}
+p.title, #ctext p.title
+{
+    margin: 15px 0 10px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+p.text, p.flat, #ctext p
+{
+    margin-top: 10px;
+    text-align: justify;
+}
+p.text:first-letter, #ctext p:first-letter
+{
+    margin-left: 15px;
+}
+#ctext p.flat:first-letter
+{
+	margin: 0;
+}
+
+textarea.question
+{
+	width: 99%;
+	height: 200px;
+}
+.controls
+{
+	border: 1px solid #000;
+	padding: 3px;
+}
+div.question
+{
+	padding: 10px 0 5px 0;
+	font-weight: bold;
+}
+div.answer
+{
+	padding: 0 0 7px 5px;
+	border-bottom: 1px solid #000;
+}
+div.q_date
+{
+	float: right;
+	font-weight: bold;
+	padding: 0 0 4px 12px;
+	font-size: 0.7em;
+	color: #555;
+}
+ul.q_topics
+{
+
+}
+#ctext ul.q_topics li
+{
+	margin-bottom: 15px;
+}
+
+ul.map li
+{
+	font-weight: bold;
+	list-style-type:none;
+	line-height: 1.6em;
+}
+ul.map li a
+{
+	line-height: inherit;
+}
+ul.map li ul li
+{
+	font-weight: normal;
+}
+table.tabl 
+{ 
+	border-collapse: collapse;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;  
+}
+table.tabl td, td.tabl 
+{
+	border: 1px solid #798B9C;
+	padding: 2px 3px;
+}
+table.tabl th, th.tabl 
+{ 
+	border: 1px solid #798B9C;
+	padding: 2px 3px;
+}
+table.tabl tr.greenrow td, .greenrow
+{
+	background-color: #8F8;
+}
+table.tabl tr.yellrow td, .yellrow
+{
+	background-color: #FF7;
+}

@@ -1,0 +1,252 @@
+body
+{
+	background: #E8EAF2; /*ECF3FD*/
+	margin: 0;
+	padding: 0;
+}
+#body-main
+{
+	min-width: 1200px;
+}
+#header
+{
+	background: #D4DAE8 url(../images/bgheader.jpg) left top no-repeat;
+	height: 77px;
+}
+	#header #gerb
+	{
+		float:left;
+		margin: 4px 8px 0 8px;
+	}
+	#header a
+	{
+		text-decoration: none;
+	}
+	#header #name
+	{
+		font-weight: bold;
+		font-size: 21px;
+		text-shadow: #556 2px 2px 5px;
+	}
+	#header #motto
+	{
+		font-weight: bold;
+		font-style: italic;
+		font-size: 16px;
+		font-family: Georgia, serif;
+		text-shadow: #334 1px 1px 3px;
+	}
+	#header #langs
+	{
+		float: right;
+		margin: 5px 8px 0 0;
+	}
+		#header #langs img
+		{
+			margin-left: 5px;
+		}
+	#header #search
+	{
+		float: right;
+		margin: 52px -104px 0 0px; /* margin: -2px 0 0 0px;*/
+		width: 296px;
+	}
+		#header #search input[type="text"]
+		{
+			width: 210px;
+			border: 1px solid #385695;
+		}
+		#header #search input[type="image"]
+		{
+			margin: 0px 0px -3px 3px;
+		}
+#imageheader
+{
+	height: 225px;
+}
+	#imageheader img
+	{
+		border: 1px solid #385695;
+		border-bottom: none;
+		float: left;
+		width: 1016px;
+	}
+	.imageheader-desc
+	{
+		height: 167px;
+		background: #FFCD67;
+		margin: 0 0 0 1018px;
+		padding: 30px 12px;
+	}
+		.imageheader-desc a
+		{
+			font-size: 0.9em;
+		}
+#menu
+{
+	clear: both;
+}
+	#menu ul
+	{
+		border: 1px solid #385695;
+		border-left: none;
+		padding: 0;
+		margin: 0;
+		height: 30px;
+		list-style-type: none;
+		background: transparent url(../images/bgmenu.jpg);
+	}
+		#menu ul li
+		{
+			float: left;
+			background: transparent url(../images/bgmenu.jpg);
+			margin: 0;
+			border-left: 1px solid #385695;
+		}
+		#menu ul li a
+		{
+			font-weight: bold;
+			font-size: 13px;
+			text-shadow: #000 1px 1px 2px;
+			margin: 0;
+			padding: 6px 20px 0px 20px;
+			vertical-align: middle;
+			display: inline-block;
+			height: 24px;
+			color: #FFFFFF;
+			background: transparent url(../images/bgmenu.jpg);
+			text-decoration: none;
+			border-bottom: 1px solid #385695;
+		}
+			/*#menu ul li a:hover
+			{
+				border-top: 5px solid #FFCD67;
+			}*/
+			#menu ul li a:hover, #menu ul li a:active, #menu ul li a.active
+			{
+				background: #FFCD67;
+				color: #111;
+				text-shadow: none;
+			}
+#submenu
+{
+	background: transparent url(../images/bgsubmenu.jpg) left bottom no-repeat;
+	float: left;
+	width: 215px;
+	margin: 0 0 0 -15px;
+}
+#submenu ul
+{
+	margin: 5px 0 0 0;
+	padding: 5px 0 100px 15px;
+	list-style-type: none;
+	border-top: 5px solid #FFCD67;
+}
+	#submenu li
+	{
+		padding: 0px 10px 0px 0px;
+		position: relative;
+	}
+		#submenu li:hover
+		{
+			/*background: #FFCD67;*/
+		}
+		#submenu li a
+		{
+			text-decoration: none;
+			padding: 6px 10px;
+			font-weight: bold;
+			font-size: 12px;
+			text-shadow: #99A 1px 1px 2px;
+			border: none;
+			display: block;
+			margin: 0 0 2px 0;
+		}
+			#submenu li a b
+			{
+				border-bottom: 1px solid #A1A5A9;
+			}
+			#submenu li a:hover, #submenu li a.active
+			{
+				background: #FFCD67;
+				border: none;
+			}
+				#submenu li:hover a b, #submenu li a.active b
+				{
+					border: none;
+				}
+		#submenu .makeMenu a
+		{
+			margin: 0;
+		}
+				
+#content
+{
+	padding: 10px 15px;
+	min-height: 360px;
+}
+	#content-news
+	{
+		float: left;
+		width: 48%;
+	}
+	#content-news.content-news-special
+	{
+		float: right;
+	}
+		#content-news.content-news-special h2
+		{
+			text-align: right;
+		}
+		#content-news h2
+		{
+			margin: 10px 0px 5px 0px;
+			padding: 0 10px;
+			font-size: 18px;
+			border-bottom: 4px solid #FFCD67;
+		}
+		#content-news h3
+		{
+			margin: 5px 0 1px 0;
+		}
+		#content-news img.preview
+		{
+			border: 1px solid #96A0B5;
+			float: right;
+			margin: 5px;
+		}
+		#content-news .news-item
+		{
+			padding: 0 5px;
+			clear: both;
+			margin: 10px 0 0 0;
+		}
+		.newsdate
+		{
+			font-size: 10px;
+	    	margin-left: 3px;
+	    	color: #444;
+		}
+	#ctext
+	{
+		margin-left: 225px;
+	}
+#footer
+{
+	padding: 30px 0 5px 0;
+	clear: both;
+	text-align: center;
+	color: #6E7C9A;
+	font-size: 11px;
+	line-height: 20px;
+}
+	#footer a
+	{
+		color: #4E5C6A;
+		font-size: 11px;
+		margin: 0 5px;
+	}
+		#footer a:hover
+		{
+			color: #111;
+		}
