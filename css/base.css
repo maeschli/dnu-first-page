@@ -180,3 +180,10 @@
 		background-color: #103343;
 		color: #f2f2f2;
 	}
+	
+	#owl-carousel .item{
+        margin: 3px;
+    }
+    #owl-carousel .item img{
+        height: 40px;
+    }
