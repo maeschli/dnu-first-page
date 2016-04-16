@@ -100,19 +100,30 @@
     }
 
     .imageheader-desc {
-        position: absolute;
         width: 100%;
-        bottom:0;
-        text-align: right;
-        color:white; 
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 8px;
+		height: 60px;
+        color: #f2f2f2;
+        background-color: #0194fe;
+        padding: 8px 20px;
     }
+
+	.imageheader-desc p {
+		font-size: 16px;
+		font-style: italic;
+		text-align: center;
+	}
+
     .imageheader-desc a {
-        color:white;
+		position: absolute;
+		right: 14px;
+		bottom: 10px;
+		color: rgba(255, 255, 255, 0.6);
         font-weight: bold;
     }
 
+	.imageheader-desc a:hover {
+		color: #f2f2f2;
+	}
 
 	#menu{
 		margin: 10px 0 0 0;
