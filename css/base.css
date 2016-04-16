@@ -19,7 +19,7 @@
 
 	.wrapper {
 		width: 96%;
-		padding: 20px 0 10px;
+		padding: 20px 0;
 		margin: 0 auto;
 	}
 
@@ -208,7 +208,7 @@
 	}
 
 	main .socials{
-		margin: 20px;
+		margin: 20px 40px;
 	}
 
 	main .news-item:hover, main .news-item:focus{
@@ -225,12 +225,12 @@
 	}
 
 	main .links-list ul li{
-		padding: 6px 10px;
+		padding: 1px 10px;
 	}
 
 	main .links-list ul li:hover, main .links-list ul li:hover a{
-		background-color: #0194fe;
-		color: #f2f2f2;
+		background-color: #3F51B5;
+		color: #E8EAF6;
 	}
 
 	footer{
@@ -266,6 +266,14 @@
 	footer .bottom{
 		padding: 20px 20px 0;
 		border-top: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	footer .bottom a{
+		color: rgba(255, 255, 255, .6);
+	}
+
+	footer .bottom a:hover{
+		color: rgb(255, 255, 255);
 	}
 	
 	#owl-carousel .item{
